@@ -62,17 +62,23 @@ section {
     justify-content: space-around;
 }
 
-.portfolio-items {
+.portfolio-items > ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
-.portfolio-descriptions {
+.portfolio-descriptions > ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 #midline {
+    position: absolute;
+    top: 97.5%;
+    left: 50%;
+    transform: -50%;
     height: 5000vh;
     width: 5px;
     background-color: #000;
@@ -90,5 +96,29 @@ section {
     }
     .socials-wrapper {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .brand {
+        font-size: 7rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .brand {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .brand {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .brand {
+        font-size: 4rem;
     }
 }
