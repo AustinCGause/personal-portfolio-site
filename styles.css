@@ -62,6 +62,16 @@ section {
     justify-content: space-around;
 }
 
+.portfolio-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-descriptions {
+    display: flex;
+    justify-content: space-around;
+}
+
 #midline {
     height: 5000vh;
     width: 5px;
